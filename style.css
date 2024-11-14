@@ -1,0 +1,78 @@
+body {
+    background: rgb(15, 14, 14);
+    color: white;
+    margin: 0px;
+    margin-bottom: 100px;
+
+
+}
+
+header {
+    color: #038f26;
+    border-bottom: solid 2px #038f26;
+    padding: 20px;
+    font-size: 25;
+    font-family: "Libre Caslon Text", serif;
+
+}
+
+
+.chamada {
+
+    background: #015315;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+
+    margin-right: 5%;
+
+}
+
+h1 {
+
+    font-size: 30px;
+
+}
+
+p {
+    font-size: 15px;
+
+}
+
+.categoria-videos {
+
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+
+}
+
+.Mais-Mistérios{
+
+    padding-right: 20;
+    padding-left: 20;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+
+    opacity: 1.0;
+    border: solid #038f26;
+
+}
+
+.Mais-Mistérios h2{
+
+color: #038f26;
+
+}
